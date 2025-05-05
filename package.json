@@ -1,0 +1,22 @@
+{
+  "name": "studyfreetube",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "backend/index.js",
+  "scripts": {
+    "dev": "nodemon backend/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
